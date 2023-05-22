@@ -42,6 +42,7 @@ $(function () {
   // attribute of each time-block be used to do this?
 
   var userInput = localStorage.getItem($(this).attr('id'));
+  $(this).find('.description').val(userInput);
 
   // TODO: Add code to display the current date in the header of the page.
   const options = {weekday: "long", year: "numeric", month: "long", day: "numeric"};
