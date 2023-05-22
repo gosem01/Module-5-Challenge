@@ -10,7 +10,7 @@ $(function () {
   // useful when saving the description in local storage?
 
   $('.saveBtn').on('click', function () {
-    
+    var timeBlockId = $(this).closest('.time-block').attr('id');
   });
 
 
