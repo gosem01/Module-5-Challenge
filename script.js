@@ -11,6 +11,7 @@ $(function () {
 
   $('.saveBtn').on('click', function () {
     var timeBlockId = $(this).closest('.time-block').attr('id');
+    var userInput = $(this).siblings('.description').val();
   });
 
 
